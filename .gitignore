@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Local databases / generated outputs
+chroma_db/
+data/chroma/
+outputs/
+docs/spacecraft_ai_agent_pm_technical_brief.docx
+scripts/
